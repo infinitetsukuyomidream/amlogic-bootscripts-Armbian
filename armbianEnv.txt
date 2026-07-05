@@ -4,9 +4,8 @@ verbosity=7
 usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 console=both
 
-# DTB file for this tvbox
-# fdtfile=amlogic/meson-gxl-s905x-nexbox-a95x.dtb
-fdtfile=amlogic/meson-sm1-x96-air-gbit.dtb
+# DTB file for this tvbox (S905X4/SC2)
+fdtfile=amlogic/meson-sc2-x96x4.dtb
 
 # set this to the UUID of the root partition (value can be found in /extlinux/extlinux.conf after APPEND root= or with blkid)
 #rootdev=UUID=92139c84-3871-41d7-a3f2-e8a943cbfa87
